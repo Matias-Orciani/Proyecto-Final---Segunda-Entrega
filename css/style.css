@@ -165,3 +165,119 @@ h3{
     width: 400px;
     border-radius: 3px;
 }
+
+/*Formulario de contacto*/
+
+.header-contact {
+    padding: 0%;}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+}
+form {
+    color: blanchedalmond;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+    background: rgb(102, 79, 28);
+    max-width: 400px;
+    max-height: 800px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+textarea {
+    color: white;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+}
+legend {
+    font-size: 15px;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+}
+label {
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'News Cycle', sans-serif;
+    font-family: 'Newsreader', serif;
+    background: none;
+}
+.relleno {
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    background: none;
+}
+input, textarea {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    margin-bottom: 20px;
+    pad: 7px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.botonera {
+    padding: 5px;
+    border-radius: 5px;
+}
+.botonera:hover {
+    cursor: pointer;
+}
+.div-botonera {
+    gap: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: none; 
+}
+.footer-contact {
+    background-color: black;
+}
+.header-contact {
+
+    background-color: black;
+}
+/*Fin de Formulario de contacto */
+
+/*Footer*/
+
+.footer-contact-text, .div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-contact-text{
+    color: blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.instagram-contact {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.instagram-contact:hover {
+    color: rgb(236, 196, 130);
+    transition: 0.5s;
+    text-decoration: underline;
+    cursor: hand;    
+}
+/* Inicio de Edicion de las fotografias individuales*/
