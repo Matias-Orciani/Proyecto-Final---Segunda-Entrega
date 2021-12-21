@@ -281,3 +281,110 @@ textarea{
     cursor: hand;    
 }
 /* Inicio de Edicion de las fotografias individuales*/
+
+/*-------Full Responsive--------*/
+@media screen and (max-width: 1200px){
+
+    .div-galeria{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "a b" "c d" "e f" "g h" "i 0";
+        gap: 20px;
+    }
+    .img-galeria {
+        width: 300px;
+        border-radius: 3px;
+    }
+
+    /*Seccion Works a*/
+
+    .div-works-a{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";
+    gap: 20px;
+}
+    .img-works-a {
+    width: 300px;
+    border-radius: 3px;
+}
+
+/*Seccion Works b*/
+    .div-works-b{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";
+    gap: 20px;
+}
+    .img-works-b {
+    width: 300px;
+    border-radius: 3px;
+}
+}
+@media screen and (max-width: 991px){
+
+    .nav-item {
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    .navbar-nav{
+        margin-top: 12px;
+        max-width: 120px;
+        max-height: 600px;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.493);
+    }
+
+}
+
+@media screen and (max-width: 664px){
+
+    .div-galeria{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        "a" "b" "c" "d" "e" "f" "g" "h" "i";
+        gap: 20px;
+    }
+    .img-galeria {
+        width: 400px;
+        border-radius: 3px;
+    }
+
+    /*Seccion Works a*/
+
+    .div-works-a{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a" "b" "c" "d" "e" "f";
+    gap: 20px;
+}
+    .img-works-a {
+    width: 400px;
+    border-radius: 3px;
+}
+
+/*Seccion Works b*/
+
+    .div-works-b{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "a" "b" "c" "d" "e" "f";
+    gap: 20px;
+}
+    .img-works-b {
+    width: 400px;
+    border-radius: 3px;
+}
+}
