@@ -388,3 +388,24 @@ textarea{
     border-radius: 3px;
 }
 }
+@media screen and (max-width: 399px){
+
+    .img-galeria {
+        width: 270px;
+        border-radius: 3px;
+    }
+
+    /*Seccion Works a*/
+
+    .img-works-a {
+    width: 270px;
+    border-radius: 3px;
+}
+
+/*Seccion Works b*/
+
+    .img-works-b {
+    width: 270px;
+    border-radius: 3px;
+}
+}
